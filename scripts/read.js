@@ -42,13 +42,13 @@ showData('https://apiaja.herokuapp.com/api/posts', {}).then((data) => {
   let table = document.getElementById('tbody');
   for (let i = 0; i < 5; i++) {
     load.remove();
-    table.innerHTML += `<tr>
+    table.innerHTML += `<tr style = "font-weight: bold;">
                     <th scope="row">${i + 1}</th>
                     <td>${data[i]['username']}</td>
                     <td>${data[i]['score']}</td>
                    </tr>`;
   }
-  let ini = document.getElementById('tr');
+
   for (let i = 1; i - 1 < dataPage.length; i++) {
     halaman.innerHTML += `<button id="page${i}" type="button" class="mx-3 "  >${i}</button> |`;
     console.log(`ini data saya :  ${i}`);
@@ -66,7 +66,7 @@ showData('https://apiaja.herokuapp.com/api/posts', {}).then((data) => {
 
         for (let i = a - 5; i < 0 + a; i++) {
           load.remove();
-          table.innerHTML += `<tr>
+          table.innerHTML += `<tr style = "font-weight: bold;">
                         <th scope="row">${i + 1}</th>
                         <td>${data[i]['username']}</td>
                         <td>${data[i]['score']}</td>
@@ -75,32 +75,4 @@ showData('https://apiaja.herokuapp.com/api/posts', {}).then((data) => {
       });
     }
   }
-  //   document.getElementById(`page${i}`).addEventListener('click', () => {
-  //     console.log(`ngeklick event ke - ${i}`);
-  //     let table = document.getElementById('tbody');
-  //     for (let i = a - 5; i < 0 + a; i++) {
-  //       load.remove();
-  //       table.innerHTML += `<tr>
-  //                       <th scope="row">${i + 1}</th>
-  //                       <td>${data[i]['username']}</td>
-  //                       <td>${data[i]['score']}</td>
-  //                      </tr>`;
-  //     }
-  //   });
-  // }
-
-  // First add all the new content:
-  // var html = halaman.innerHTML;
-  // for (var i = 1; i - 1 < dataPage.length; i++) {
-  //   html += `<a id="page${i}" href="#">${i}hahaha</a> |`;
-  //   let a = dataPage.slice(0, i).reduce((a, b) => a + b, 0);
-  //   console.log(`ini data saya : ${a} dan ${i}`);
-  // }
-  // halaman.innerHTMLL = html;
-
-  // Now bind the event handlers
-  // By using "let" instead of "var" the right value is retained
-  // in the handlers
-
-  // JSON data parsed by `data.json()` call
 });
