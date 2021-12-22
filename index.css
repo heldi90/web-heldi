@@ -42,11 +42,12 @@
 .layar-belakang {
     background-image: url('img/bulet.png');
     background-repeat: no-repeat;
-    position: absolute;
+
     width: 742px;
     height: 904px;
     left: -93px;
-    top: 630px
+    top: 630px;
+    z-index: 900;
 }
 
 .daftar{
@@ -165,6 +166,23 @@ input[type=text], select {
   
   input[type=button]:hover {
     background-color: #45a049;
+  }
+
+  button[type=button] {
+    
+    background-color: #0575E6;
+    color: rgb(247, 234, 234);
+    padding: 0px 20px;
+    margin: 8px 0;
+    font-weight: bold;
+    border-radius: 35px;
+    cursor: pointer;
+  }
+
+  button[type=button]:hover {
+    background-color: #8dfa92;
+    font-weight: bold;
+    color: #0e141a;
   }
   
 

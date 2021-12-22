@@ -50,7 +50,7 @@ showData('https://apiaja.herokuapp.com/api/posts', {}).then((data) => {
   }
   let ini = document.getElementById('tr');
   for (let i = 1; i - 1 < dataPage.length; i++) {
-    halaman.innerHTML += `<a id="page${i}" type="button" >${i}</a> |`;
+    halaman.innerHTML += `<button id="page${i}" type="button" class="mx-3 "  >${i}</button> |`;
     console.log(`ini data saya :  ${i}`);
   }
 
@@ -66,7 +66,7 @@ showData('https://apiaja.herokuapp.com/api/posts', {}).then((data) => {
 
         for (let i = a - 5; i < 0 + a; i++) {
           load.remove();
-          table.innerHTML += `<tr id="tr">
+          table.innerHTML += `<tr>
                         <th scope="row">${i + 1}</th>
                         <td>${data[i]['username']}</td>
                         <td>${data[i]['score']}</td>
