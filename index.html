@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Css -->
+    <link rel="stylesheet" href="index.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="container-fluid coba pb-5">
+          <div class="container  " >
+            <div class="row"> 
+                <!-- row 1 -->
+              <div class="col-3 mt-4" >
+                    <h3 class="judul ">Web Heldi</h3>
+              </div>
+              <div class="col-4 mt-4 offset-5 navbar navbar-expand-sm " >
+                
+            
+
+                    <!-- Links -->
+                    <ul class="navbar-nav  " >
+                      <li class="nav-item mr-5">
+                        <a class="nav-link menu-aja text-light " href="#">Beranda</a>
+                      </li>
+                      <li class="nav-item mr-5 ml-4 ">
+                        <a class="nav-link menu-aja text-light" href="#">Data</a>
+                      </li>
+                      <li class="nav-item ml-4 " >
+                        <a class="nav-link menu-aja text-light" href="#">Daftar</a>
+                      </li>
+                    </ul>
+                  
+                 
+                
+              </div>
+            </div>
+
+            <div class="row mt-5">
+                <!-- row 2 -->
+                <div class="col-4 mt-5"  >
+                <div class="row ml-1">
+                    <!-- row-sub-1 -->
+                    <h1 class="judul" > <span style="color: aqua;">Belajar</span>  <span style="color: black;">membuat <br> Halaman Web</span> </h1>
+                    <span></span>
+                   
+                </div>
+                <div class="row ml-1 mt-5">
+                    <!-- row-sub-2 -->
+                    <button type="button" class="btn btn-danger btn-lg mr-5 ">Lihat Data</button>
+                    <button type="button" class="btn btn-info btn-lg">Daftar</button>
+                </div>
+
+                </div>
+                <div class="col-5">
+                    <img src="img/a.png" style="width: 660px; height: 450px;">
+                </div>
+            </div>
+           
+          </div>
+      </div>
+      <br>
+      <br>
+      <!-- bagian data -->
+      
+      <div class="container-fluid mt-5 ">
+        <div class="layar-belakang"></div>
+       
+        <div class="container">
+          <div class="tulisan-data"><span style="color: #3952FF;">Data</span> di bawah ini <br>
+            berasal dari Database MonggoDb</div>
+          <br>
+          <br>
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Username</th>
+                <th scope="col">Score</th>
+               
+              </tr>
+            </thead>
+            <tbody id="tbody">
+              <tr id ='loading'>
+
+                <th> <p>Loading Data ...</p></th>
+             
+              </tr>
+              
+            </tbody>
+            <nav  style="float: right; ;">
+              <a style="color: black; font-weight: bold;" >PAGE : </a>
+              <page id="page">
+              
+              </page>
+              </nav>
+          </table>
+          
+        </div>  
+      </div>
+
+
+      <div class="container-fluid daftar"  >
+        
+          <div class="container " >
+            <div class="row">
+            <div class="col-5  ">
+
+              <h3 class="f-h3">Daftar</h3>
+              <p class="f-p">Mencoba menggunakan  Fikture Registrasi Pada Web </p>
+              <a href="#"><div class="frame text-light">
+                  <span style="font-size: small;">Kembali Ke Atas</span>
+              </div></a>
+            </div>
+
+            <div class="col-5 offset-2 "  >
+              
+              <h5 class="f-h4 pl-5 ml-5  ">Hello</h5>
+              <p class="f-p pl-5 ml-5 ">Lakukan Pendaftaran Disini </p>
+              <form method="post">
+           
+                <input class="float-right mr-3" type="text" id="uname" name="username" placeholder="Username...">
+            
+            
+                <input class="float-right mr-3" type="password" id="pass" name="password" placeholder="Password">
+            
+              
+              
+                <input class="float-right mr-3" id="myBtn" type="button" value="Submit">
+              </form>
+            </div>
+
+            
+
+          </div>
+
+          </div>
+          
+      </div>
+
+      <div class="container-fluid footer" >
+        
+          <div class="container">
+            <div class="row mt-5">
+              <div class="col-7">
+                <p class="f-p1">Belajar Desain Web Dengan FIGMA <br>
+                  Copyright © 2021 Heldi Arisandi | All Rights Reserved | Kebijakan Privasi</p>
+              </div>
+              <div class="col-5">
+                <nav>
+               
+                  <a href=""><img class="icon" src="img/tel.png" alt=""></a> |
+                  <a href=""><img class="icon" src="img/fb.png" alt=""></a> |
+                  <a href=""><img class="icon" src="img/twi.png" alt=""></a> |
+                  <a href=""><img class="icon" src="img/in.png" alt=""></a>
+                </nav>
+
+              </div>
+            </div>
+          </div>
+          
+        
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="scripts/read.js"></script>
+    <script src="scripts/daftar.js"></script>
+    
+  </body>
+</html>

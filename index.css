@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+.judul{ font-family:'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: aliceblue;}
+
+.menu-aja{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: aliceblue;
+
+    text-align: right;
+}   
+
+.h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: bold;
+    
+    line-height: 83px;
+}
+
+.coba{
+    background: linear-gradient(180deg, #5B2EDC 0%, rgba(72, 14, 45, 0.19) 100%);
+}
+
+.tulisan-data{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+}
+
+.layar-belakang {
+    background-image: url('img/bulet.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 742px;
+    height: 904px;
+    left: -93px;
+    top: 630px
+}
+
+.daftar{
+    position: absolute;
+    width: 1647px;
+    height: 703px;
+    
+    top: 1468px;
+    background: linear-gradient(180deg, rgba(248, 198, 253, 0.83) 0%, #77028A 58.85%, #592ED3 100%);
+}
+
+.f-h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+    margin-top: 343px;
+
+    /* White */
+
+    color: #FFFFFF;
+
+    
+}
+
+.f-p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+.frame{
+    /* Frame 3 */
+
+
+/* Auto Layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 30px;
+
+position: static;
+width: 172px;
+height: 37px;
+left: 0px;
+top: 137px;
+
+background: #0575E6;
+border-radius: 30px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 23px 0px;
+}
+
+a:hover{
+    text-decoration-line: none;
+}
+
+.f-h4 {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 39px;
+/* identical to box height */
+margin-top: 343px;
+
+
+color: #FFF7F7;
+}
+
+input[type=text], select {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    box-sizing: border-box;
+  }
+
+  input[type=password], select {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    box-sizing: border-box;
+  }
+  
+  input[type=button] {
+    width: 75%;
+    background-color: #0575E6;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+  }
+  
+  input[type=button]:hover {
+    background-color: #45a049;
+  }
+  
+
+  .footer{
+    position: absolute;
+    width: 1440px;
+    height: 200px;
+    left: 0px;
+    top: 2170px;
+    
+    background: #201B1B;
+  }
+
+  .f-p1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+  }
+
+  .icon{
+      width: 40px;
+      height: 40px;
+      margin-right: 30px;
+      
+  }
