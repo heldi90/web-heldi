@@ -50,7 +50,7 @@ showData('https://apiaja.herokuapp.com/api/posts', {}).then((data) => {
   }
   let ini = document.getElementById('tr');
   for (let i = 1; i - 1 < dataPage.length; i++) {
-    halaman.innerHTML += `<a id="page${i}" type="button" >${i}huu</a> |`;
+    halaman.innerHTML += `<a id="page${i}" type="button" >${i}</a> |`;
     console.log(`ini data saya :  ${i}`);
   }
 
